@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/login"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/register_icon"
+        android:layout_width="134dp"
+        android:layout_height="163dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@drawable/ef" />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+       android:layout_marginLeft="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="223dp"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/ic_mail_black_24dp"
+        android:ems="10"
+        android:hint=" E-mail..."
+        android:inputType="textEmailAddress"
+        android:textColorHint="#8b0000"
+        android:textStyle="italic"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="165dp"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:ems="10"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:textColorHint="#8b0000"
+        android:textStyle="italic"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/register_confirm_password"
+        android:layout_width="370dp"
+        android:textColor="#000"
+        android:layout_height="40dp"
+        android:layout_marginLeft="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="104dp"
+        android:ems="10"
+        android:background="@drawable/inputs"
+        android:textColorHint="#8b0000"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint=" Confirm Password"
+        android:textStyle="italic"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/register_create_account"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+          android:layout_marginLeft="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/button"
+        android:textStyle="italic"
+
+        android:text="Create Account" />
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".ClickPostActivity">
+
+    <ImageView
+        android:id="@+id/post_image"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+
+
+        android:layout_alignParentTop="true"
+        android:src="@drawable/add_post"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+
+        android:id="@+id/click__post_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="199dp"
+        android:background="@drawable/login"
+        android:textColor="#AAA"
+        android:fontFamily="serif"
+
+
+
+
+        android:text="Post Description"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveBtn"
+            android:fontFamily="cursive"
+            android:background="@drawable/button"
+
+         android:text="Save"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wallBtn"
+            android:background="@drawable/button"
+            android:text="Set as wallpaper"
+            android:fontFamily="cursive"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shareBtn"
+            android:text="Share"
+            android:background="@drawable/button"
+            android:fontFamily="cursive"
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/edit_post_button"
+        android:layout_width="370dp"
+        android:layout_marginLeft="6dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="74dp"
+        android:background="@drawable/button"
+        android:fontFamily="cursive"
+        android:text="Edit Post"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/delete_post_button"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:text="Delete Post" />
+
+
+</RelativeLayout>

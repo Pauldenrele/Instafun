@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Social Network</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="todo">TODO</string>
+    <string name="or_login_with">or login with</string>
+
+    <string name="e_mail">E-mail...</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account_need_new_account">Don\'t have an Account , Need new Account ?</string>
+    <string name="login">Login</string>
+    <string name="status">Status...</string>
+    <string name="search">Search</string>
+
+
+</resources>
